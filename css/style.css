@@ -31,8 +31,8 @@ body {
 
 h1 .html-css {
     background-image: url('/imagens/HTML5-CSS.png');
-    padding: 0px 15px 0px;
-    margin: 1px 0px;
+    padding: 2px 12px 0px;
+    margin: 1px 0px 1px;
     justify-content: center;
     align-items: center;
     background: transparent;
