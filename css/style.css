@@ -9,13 +9,13 @@
 
 body {
     height: 70vh;
-    background: url('../background.png') no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(0deg, #3F9CD9, green 20%, red);
+    background-attachment: fixed;
     font-family: 'Josefin Sans';
 }
 
 .container {
-    max-width: 700px;
+    max-width: 600px;
     padding: 5px;
     margin: auto;
     height: auto;
@@ -36,7 +36,7 @@ h2 {
     justify-content: center;
     color: white;
     font-size: 30px;
-    padding: 5px 0px 0px;
+    padding: 6px 0px 0px;
 }
 
 .img {
@@ -84,8 +84,8 @@ fieldset {
 
 .redes {
     display: flex;
-    margin: 5px;
-    padding: 10px;
+    margin: 0px 5px;
+    padding: 5px;
 }
 
 section li {
