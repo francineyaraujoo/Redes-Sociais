@@ -2,102 +2,108 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 body {
-    height: 70vh;
-    background: linear-gradient(0deg, #3F9CD9, green 20%, red);
+    height: 100vh;
+    background-color: rgba(216, 248, 243, 0.397);
     background-attachment: fixed;
     font-family: 'Josefin Sans';
 }
 
-.container {
-    max-width: 600px;
-    padding: 5px;
-    margin: auto;
-    height: auto;
-}
-
-.conteudo {
-    background: url('../imagens/background1.png') no-repeat center center fixed;
+main {
+    background: url('../imagens/background1.png') top center fixed;
     background-size: cover;
-    margin: 150px 0px;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
     border-radius: 10px 10px 0px 0px;
-    align-items: center;
-    
 }
 
-hr {
-    border-color: black;
-    
-}
 
-h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 30px;
-    padding: 6px 0px 0px;
-}
-
-.img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-}
-
-.perfil {
+main .borda {
+    border: 2px solid rgb(81, 255, 0);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    height: 50px;
+    margin: 50px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.perfil img {
+main .borda .sobrepor {
     border-radius: 100px;
-    margin: 10px;
-}
-
-.perfil h2 {
-    display: inline-block;
     position: absolute;
-    font-size: 20px;
-
+    top: -45px;
+    
 }
 
-fieldset {
-    border: none;
-}
-
-.nome {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin: 0px;
-    font-weight: bold;
-}
-
-.estudante {
-    font-size: 18px;
-    text-align: center;
-    color: white;
-}
-
-.redes {
+.sobrepor img {
+    border-radius: 100px;
     display: flex;
-    margin: 0px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-nome h2  {
+    color: white;
+    text-align: center;
+    margin: 60px 0px 0px;
+}
+
+main p {
+    color: white;
+    text-align: center;
+    margin: 7px;
+}
+
+.redes{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.redes i {
+   margin: 4px 30px 0px;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.texto p {
+    text-align: justify;
+}
+
+.divisor {
+    border: 2px solid rgb(81, 255, 0);
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    text-align: center;
     padding: 5px;
 }
 
-section li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    margin: auto;
+.fa-github {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fa-facebook-f {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fa-linkedin {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.divisor i {
+    margin: 0px 60px;
 }
