@@ -109,7 +109,7 @@ main p {
 }
 
 .divisor i {
-    margin: 0px 50px;
+    margin: 0px 70px;
 }
 
 /* Media queries for responsiveness */
@@ -125,6 +125,7 @@ main p {
 
     .foto-nome h2 {
         margin: 30px 0;
+        margin: 7px;
     }
 
     .redes {
